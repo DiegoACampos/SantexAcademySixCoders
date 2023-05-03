@@ -1,0 +1,374 @@
+
+body {
+    margin: 0;
+    font-family: 'Inter', arial, helvetica, sans-serif;
+}
+#header{
+    border-bottom: 1px solid gray; 
+    position: fixed;
+    display: flex; 
+    width: 90%;
+    padding: 10px 100px; 
+    justify-content: space-between;
+    height: 58px;
+    line-height: 21px;
+    background-color: white;
+    z-index: 2;
+}
+button.redondo {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 0px 20px;
+    height: 32px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 12px;
+    font-style: normal;
+    justify-content: center;
+    padding: 9px 20px;
+    background-origin: padding-box;
+}
+#header .redondo:hover{
+    background-color: black;
+    color: white;
+}
+#header-right{
+    display: flex;
+    align-items: center;    
+}
+#header-left img{
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 40px;
+    line-height: 21px;
+    max-width: 100%;
+    vertical-align: top;
+    padding-left: 3.3em;
+    margin-top: 0.6em;
+}
+#header p {
+    color: rgb(32, 27, 36, 0.9);
+    text-transform:none ;
+    text-align: left;
+    line-height: 13px;
+    letter-spacing: normal;
+    font-weight: 500;
+    font-size: 13px;
+    cursor: pointer;
+    box-sizing: border-box ;
+    margin-right: 34px;
+    margin-left: 0;
+    text-size-adjust: 100%;
+    text-decoration-thickness: auto;
+}
+#header-right p:hover{
+    color: rgb(107, 83, 240);
+}
+#instagram{
+    width: 0.75em;
+    height: 0.75em;
+    margin-left: 2em;
+}
+#linkedin{
+    width: 0.85em;
+    height: 0.85em;
+    margin-left: 1em;
+    margin-right: 7em;
+}
+#introduction{
+    width: 95%;
+    height: 20.3em;
+}
+#introduction-text h1 {
+    margin: 110px 420px 0px;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    letter-spacing: 0.1px;
+    font-weight: 600;
+    line-height: 32px;
+}
+button.redondo:hover{
+    background-color: black;
+    color: white;
+}
+
+#btn-sumate-2{
+    color: rgb(107, 83, 240);
+    border-color: rgb(107, 83, 240);
+  
+}
+#btn-sumate-2:hover{
+    background-color: rgb(107, 83, 240);
+    color: white;
+}
+div#introduction-actions {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5em;
+}
+div#metrics{
+    background-color: rgb(32, 27, 36);
+    border-color:  rgb(32, 27, 36);;
+    border-style: solid;
+    border-width: 8px;
+    display: flex;
+    box-sizing: border-box;
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 120px;
+    height: 25em;
+    backface-visibility: hidden;
+}
+#metrics h1{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    line-height: 36px;
+    text-align: left;
+    margin-left: 300px;
+    margin-top: 0;
+}
+#metrics .parrafo{
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-left: 300px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+#countup{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4.1em;
+}
+#countup span{
+    font-size: 50px;
+    font-weight: 700;
+}
+#countup p{
+    font-size: 14px;
+    font-weight: 400;
+}
+#countup .sum{
+    color: rgb(107, 83, 240);
+    font-size: 30px;
+}
+
+.countup-localidades{
+    margin-left: 6em;
+}
+.countup-mentores{
+    margin-left: 3em;
+}
+.countup-participantes{
+    margin-left: 3em;
+}
+#imgTeam{
+    position: relative;
+    background-image: url("https://technologywithpurpose.org/wp-content/uploads/2022/11/twp-home.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 1000px;
+}
+#groupOne{
+    display: flex;
+    height: 700px;
+}
+#groupOne h1{
+    box-sizing: border-box;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    line-height: 36px;
+    margin-left: 5em;
+    margin-top: 3.5em;
+}
+.imgRight{
+    height: 384.045px;
+    width: 576.076px;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+.imgLeft{
+    height: 384.045px;
+    width: 576.076px;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+.paragraph{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-size-adjust: 100%;
+}
+#groupOne .imgRight{
+    position: absolute;
+    margin-top: 11em;
+    margin-left: 9em;
+}
+#groupOne .imgXacademy{
+    position: absolute;
+    height: 42px;
+    width: 200px;
+    margin-left: 51.5em;
+    margin-top: 17em;
+}
+#groupOne p{
+    position: absolute;
+    margin-top: 21em;
+    margin-left: 51.5em;
+}
+#groupOne button{
+    position: absolute;
+    margin-top: 38em;
+    margin-left: 68em;
+}
+#groupTwoo{
+    display: flex;
+    height: 300px;
+}
+#groupTwoo h1{
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    line-height: 26.4px;
+    font-style: normal;
+    margin-left: 9em;
+}
+#groupTwoo img{
+    position: absolute;
+    margin-left: 48em;
+    margin-top: -8em;
+}
+#groupTwoo .paragraph{
+    position: absolute;
+    margin-left: 14em ;
+    margin-top: 4em;
+}
+#groupTwoo button{
+    position: absolute;
+    margin-top: 12em;
+    margin-left: 16em;
+}
+#groupThree h1{
+    position: absolute;
+    font-size: 30px;
+    letter-spacing: 0.4px;
+    font-weight: 600;
+    line-height: 36px;
+    margin-left: 4.8em;
+    margin-top: 3em;
+}   
+#groupThree .imgRight{
+    position: absolute;
+    margin-top: 10em;
+    margin-left: 9em;
+}
+#groupThree h2{
+    position: absolute;
+    font-size: 22px;
+    letter-spacing: 0.4px;
+    font-weight: 600;
+    line-height: 36px;
+    margin-left: 35em;
+    margin-top: 12em;
+}
+#groupThree .paragraph{
+    position: absolute;
+    margin-left: 55em;
+    margin-top: 22em;
+}
+#groupThree button{
+    position: absolute;
+    margin-left: 64em;
+    margin-top: 37em;
+}
+#groupFour{
+    display: flex;
+    height: 300px;
+}
+#groupFour img{
+    position: absolute;
+    margin-left: 48em;
+    margin-top: 4em;
+}
+#groupFour h1{
+    position: absolute;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    line-height: 26.4px;
+    margin-top: 8em;
+    margin-left: 9em;
+}
+#groupFour .paragraph{
+    position: absolute;
+    margin-top: 16em;
+    margin-left: 14em;
+}
+#groupFour button{
+    position: absolute;
+    margin-top: 26em;
+    margin-left: 16em;
+}
+#admTeam{
+    background-color: rgb(244, 244, 245);
+    margin-top: 15em;
+    padding: 0;
+    height: 900px;
+    width: 100%;
+
+}
+#admTeam h1{
+    position: relative;
+    margin-left: 5.5em;
+    padding-top: 3.3em;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+}
+#admTeam h5{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    line-height: 24px;
+    text-align: center;
+}
+#admTeam p{
+    color: rgb(140, 147, 156);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+}
+#admTeam #linkedin{
+    margin-left: 7em;
+    cursor: pointer;
+    width: 0.85em;
+    height: 0.85em;
+}
+#admTeam .imgProfile{
+    height: 190px;
+    width: 240px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+#imgMargin{
+    margin-left: 10.5em;
+    background-color: rgb(255, 255, 255);
+}
+.imgAddMargin{
+    margin-left: 3em;
+    background-color: rgb(255, 255, 255);
+}
